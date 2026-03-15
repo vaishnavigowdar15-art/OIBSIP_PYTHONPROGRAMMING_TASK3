@@ -1,2 +1,13 @@
-# OIBSIP_PYTHONPROGRAMMING_TASK3
-This Python program generates a **random password** based on user preferences. The user selects the password length and whether to include letters, numbers, and symbols. The program builds a character pool accordingly and randomly picks characters to create a secure password, then displays the generated password.
+Features:
+ User can set the password length.
+ Option to include letters, numbers, and symbols.
+ Generates a random and secure password.
+ Ensures at least one character type is selected.
+ Simple command-line interaction for quick password creation.
+
+Tools Used:
+ Python programming language
+ random module for random character selection
+ string module for letters, digits, and symbols
+ input() function for user input
+ if conditions and loops for password generation
